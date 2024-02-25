@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Image Upload</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login-bar">
+    <span>Welcome, User</span>
+    <button id="logoutButton">Logout</button>
+  </div>
+  <div class="container">
+    <h2>Multiple Image Upload</h2>
+    <input type="file" id="fileInput" multiple>
+    <button id="uploadButton" disabled>Upload</button>
+    <div id="imageCount">0 images selected</div>
+    <textarea id="resultTextArea" rows="4" cols="50" readonly></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
